@@ -6,9 +6,9 @@ function App() {
     <div className="App">
       <FeatureToggle isEnabled={true} featureName="Feature One" />
       <FeatureToggle isEnabled={false} featureName="Feature Two" />
-      <FeatureToggle isEnabled={false} featureName="Feature Three" />
+      <FeatureToggle isEnabled={true} featureName="Feature Three" />
       <FeatureToggle isEnabled={false} featureName="Feature Four" />
-      <FeatureToggle isEnabled={false} featureName="Feature Five" />
+      <FeatureToggle isEnabled={true} featureName="Feature Five" />
       {/* Add more instances as needed */}
     </div>
   );
